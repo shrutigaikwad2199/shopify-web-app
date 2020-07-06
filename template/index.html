@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <link rel="stylesheet" href="style.css"/>
+    <title>Quality Shop</title>
+
+</head>
+    <body>
+        <div class="grid-container">
+            <header class="header">
+              <div class="brand">
+                <button onclick= "openMenu()">
+                  &#9776;
+                </button>
+                <a href="index.html">ShopFresh </a>
+              </div>
+              <div class="header-links">
+                <a href="cart.html">Cart</a>
+                <a href="signin.html">Sign In</a>
+              </div>
+            </header>
+            <aside class="sidebar">
+              <h3>All Categories</h3>
+              <button class="sidebar-close-button" onclick="closeMenu()">x</button>
+              <ul>
+                <li><a href="index.html">Breads</a></li>
+                <li><a href="index.html">Vegetables</a></li>
+              </ul>
+            </aside>
+            <main class="main">
+                <div class="content">
+                <ul class="products">
+                    <li>
+                        <div class="product">
+                          <img class="product-image" src="images/d1.jpg" alt="product" />
+                          <div class="product-name">
+                            <a href="product.html">Freshly Baked Bread</a>
+                          </div>
+                          <div class="product-brand">Fresh Bakers</div>
+                          <div class="product-price">$ 120 </div>
+                          <div class="product-rating">4.5 Stars (10 Reviews)</div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="product">
+                          <img class="product-image" src="images/d2.jpg" alt="product" />
+                          <div class="product-name">
+                            <a href="product.html">Freshly Baked Brown Bread</a>
+                          </div>
+                          <div class="product-brand">Fresh Bakers</div>
+                          <div class="product-price">Rs 160 </div>
+                          <div class="product-rating">4.2 Stars (10 Reviews)</div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="product">
+                          <img class="product-image" src="images/d3.jpg" alt="product" />
+                          <div class="product-name">
+                            <a href="product.html">Fresh Ripe Avacados </a>
+                          </div>
+                          <div class="product-brand">Quality veggies</div>
+                          <div class="product-price">Rs 360 </div>
+                          <div class="product-rating">4.5 Stars (10 Reviews)</div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="product">
+                          <img class="product-image" src="images/d4.jpg" alt="product" />
+                          <div class="product-name">
+                            <a href="product.html">Crunchy Spinach</a>
+                          </div>
+                          <div class="product-brand">Qaulity veggies</div>
+                          <div class="product-price">Rs 20 </div>
+                          <div class="product-rating">4.5 Stars (10 Reviews)</div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="product">
+                          <img class="product-image" src="images/d1.jpg" alt="product" />
+                          <div class="product-name">
+                            <a href="product.html">Freshly Baked Bread</a>
+                          </div>
+                          <div class="product-brand">Fresh Bakers</div>
+                          <div class="product-price">Rs 120 </div>
+                          <div class="product-rating">4.5 Stars (10 Reviews)</div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="product">
+                          <img class="product-image" src="images/d1.jpg" alt="product" />
+                          <div class="product-name">
+                            <a href="product.html">Freshly Baked Bread</a>
+                          </div>
+                          <div class="product-brand">Fresh Bakers</div>
+                          <div class="product-price">Rs 120 </div>
+                          <div class="product-rating">4.5 Stars (10 Reviews)</div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="product">
+                          <img class="product-image" src="images/d1.jpg" alt="product" />
+                          <div class="product-name">
+                            <a href="product.html">Freshly Baked Bread</a>
+                          </div>
+                          <div class="product-brand">Fresh Bakers</div>
+                          <div class="product-price">Rs 120 </div>
+                          <div class="product-rating">4.5 Stars (10 Reviews)</div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="product">
+                          <img class="product-image" src="images/d1.jpg" alt="product" />
+                          <div class="product-name">
+                            <a href="product.html">Freshly Baked Bread</a>
+                          </div>
+                          <div class="product-brand">Fresh Bakers</div>
+                          <div class="product-price">Rs 120 </div>
+                          <div class="product-rating">4.5 Stars (10 Reviews)</div>
+                        </div>
+                      </li>
+                </ul>
+                </div>
+            </main>
+            <footer class="footer">
+                All rights reserved
+            </footer>
+        </div>
+        <script>
+          function openMenu() {
+            document.querySelector(".sidebar").classList.add("open");
+          }
+          function closeMenu() {
+            document.querySelector(".sidebar").classList.remove("open")
+          }
+        </script>
+    </body>
+</html>
